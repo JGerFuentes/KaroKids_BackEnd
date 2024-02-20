@@ -21,7 +21,7 @@ module.exports = (sequelize) => {
 			allowNull: false,
 		},
 		imagenes_secundarias: {
-			type: DataTypes.ARRAY(DataTypes.STRING), //Array de strings
+			type: DataTypes.ARRAY(DataTypes.JSON), //Array de strings
 		},
 		video: {
 			type: DataTypes.STRING,
